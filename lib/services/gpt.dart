@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 
 class GPTService {
   static const url = 'https://api.openai.com/v1/chat/completions';
-  static const key = 'Bearer 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';
-  static const org = 'org-0QTu7VnH24YVr7oqKNL2iaBQ';
+  static const key = 'Bearer ---';
+  static const org = '---';
 
   Future<List<Suggestion>> getSuggestions() async {
     final uri = Uri.parse(url);
